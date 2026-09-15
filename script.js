@@ -11,7 +11,7 @@ const filmek = [
         poszter: "obsession.webp",
         ev: 2026,
         mufaj: "Horror",
-        link: "https://example.com/obsession"
+        link: "https://jobbmintatv.pro/online/Megszallottsag_(2025)"
     },
     {
         cim: "28 Years Later",

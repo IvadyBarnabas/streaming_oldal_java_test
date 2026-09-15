@@ -30,6 +30,7 @@ main {
 
 .filmek h2 {
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .film-grid {
@@ -37,6 +38,7 @@ main {
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
+    align-items: stretch;
 
 }
 
