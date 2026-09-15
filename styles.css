@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: white;
+}
+
+header {
+    padding: 30px 50px;
+    background: #181818;
+}
+
+header h1 {
+    font-size: 32px;
+}
+
+header p {
+    color: #aaa;
+    margin-top: 5px;
+}
+
+main {
+    padding: 40px 50px;
+}
+
+.filmek h2 {
+    margin-bottom: 20px;
+}
+
+.film-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+.film-kartya {
+    background: #222;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 200px;
+    transition: transform 0.3s ease;
+}
+
+.film-kartya:hover {
+    transform: translateY(-5px);
+}
+
+.film-kartya img {
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+    display: block;
+}
+
+.film-info {
+    padding: 15px;
+}
+
+.film-info h3 {
+    margin-bottom: 8px;
+}
+
+.film-info p {
+    color: #aaa;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.film-info a {
+    display: inline-block;
+    background: #e50914;
+    color: white;
+    text-decoration: none;
+    padding: 8px 14px;
+    border-radius: 5px;
+}
+
+.film-info a:hover {
+    background: #f51a24;
+}
